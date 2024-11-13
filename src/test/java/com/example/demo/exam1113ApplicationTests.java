@@ -145,6 +145,7 @@ class exam1113ApplicationTests {
 	void t8() {
 
 		book.deleteBook("박응용");
+		t6();
 	}
 
 	 

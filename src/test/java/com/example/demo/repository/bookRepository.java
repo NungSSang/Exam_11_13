@@ -41,7 +41,7 @@ public interface bookRepository {
 
 	@Delete("""
 			DELETE FROM book
-				WHERE title = #{author}
+				WHERE author = #{author}
 			""")
 	void deleteBook(String author);
 		
